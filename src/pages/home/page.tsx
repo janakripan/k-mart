@@ -341,31 +341,31 @@ export default function Home() {
             animate={heroInView ? "visible" : "hidden"}
             variants={containerVariants}
           >
-            <motion.div variants={itemVariants} className="mb-8">
+            {/* <motion.div variants={itemVariants} className="mb-8">
               <span className="inline-block px-6 py-2 bg-gradient-to-r from-yellow-400/20 to-orange-500/20 border border-yellow-400/30 rounded-full text-yellow-400 font-semibold text-sm tracking-wide uppercase backdrop-blur-sm">
                 Since 1983 • Premium Excellence
               </span>
-            </motion.div>
+            </motion.div> */}
 
             <motion.h1
               variants={itemVariants}
               className="text-6xl md:text-8xl font-bold mb-8 leading-tight"
             >
               <motion.span
-                className="block bg-gradient-to-r from-white via-yellow-200 to-yellow-400 bg-clip-text text-transparent"
+                className="block bg-gradient-to-r from-white via-yellow-200 to-yellow-400 bg-clip-text text-transparent p-3.5"
                 initial={{ x: -100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 0.5, duration: 0.8 }}
               >
-                Where Quality
+                Savoring Success 
               </motion.span>
               <motion.span
-                className="block bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 bg-clip-text text-transparent"
+                className="block bg-gradient-to-r from-yellow-400 via-white to-yellow-400 bg-clip-text text-transparent"
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 0.7, duration: 0.8 }}
               >
-                Meets Innovation
+                Since 1983
               </motion.span>
             </motion.h1>
 
@@ -373,19 +373,19 @@ export default function Home() {
               variants={itemVariants}
               className="text-2xl md:text-3xl mb-6 text-transparent bg-gradient-to-r from-gray-200 to-gray-400 bg-clip-text font-light"
             >
-              In Every Aisle and Every Bite!
+              Where Quality Meets Convenience in Every Aisle and Every Bite!
             </motion.p>
 
-            <motion.p
+            {/* <motion.p
               variants={itemVariants}
               className="text-lg mb-12 text-gray-300 max-w-4xl mx-auto leading-relaxed"
             >
               Elevating experiences across retail, dining, and distribution with
               cutting-edge innovation and unwavering commitment to excellence
               since 1983.
-            </motion.p>
+            </motion.p> */}
 
-            <motion.div
+            {/* <motion.div
               variants={itemVariants}
               className="flex flex-col sm:flex-row gap-6 justify-center"
             >
@@ -429,7 +429,7 @@ export default function Home() {
                   </span>
                 </Link>
               </motion.div>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         </div>
       </section>
