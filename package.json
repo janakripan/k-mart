@@ -30,7 +30,7 @@
     "unplugin-auto-import": "^19.3.0",
     "vite": "^7.0.3"
   },
-  "name": "react",
+  "name": "k-mart",
   "private": true,
   "scripts": {
     "build": "vite build",
