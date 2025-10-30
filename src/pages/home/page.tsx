@@ -266,11 +266,12 @@ export default function Home() {
           <div className="absolute inset-0 ">
             <video
               className="absolute inset-0 w-full h-full object-cover "
-              src="/hero bg.mp4"
+              src="/hero-bg.mp4"
               autoPlay
               muted
               loop
               playsInline
+              preload="auto"
               style={{
                 transform: `translateY(${scrollY * 0.5}px)`, // keeps the parallax movement
               }}
